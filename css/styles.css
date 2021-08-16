@@ -1,1 +1,27 @@
+/* 
+########## Fonts ##########
+*/
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+
+/* 
+########## Variables ##########
+*/
+
+:root {
+    /* Colors */
+    --clr-primary: #678e3e;
+    --clr-primary-light: #beed8c;
+    --clr-grey-1: #102a42;
+    --clr-grey-5: #617d98;
+    --clr-grey-10: #f1f5f8;
+    --clr-white: #fff;
+    /* Fonts */
+    --ff-primary: "Catamaran", sans-serif;
+    --ff-secondary: "Grand Hotel", cursive;
+    /* Transition */
+    --transition: all 0.3s linear;
+    /* Letter spacing */
+    --spacing: 0.25rem;
+    /* Radius */
+    --radius: 0.5rem;
+}
