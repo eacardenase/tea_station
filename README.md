@@ -1,2 +1,2 @@
 # Tea Station
-Firts Project using HTML5 and CSS3
+Firts web project using only HTML5 and CSS3
