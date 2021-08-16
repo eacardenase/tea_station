@@ -1,10 +1,14 @@
 /* 
-########## Fonts ##########
+####################
+Fonts 
+####################
 */
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
 
 /* 
-########## Variables ##########
+####################
+Variables 
+####################
 */
 
 :root {
@@ -107,3 +111,5 @@ p {
         line-height: 1;
     }
 }
+
+/* more global css */
