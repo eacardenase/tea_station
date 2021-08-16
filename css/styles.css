@@ -134,6 +134,13 @@ p {
     background: var(--clr-primary-light);
 }
 
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* 
 ####################
 Header
@@ -240,6 +247,8 @@ Skills
 
 @media screen and (min-width: 1200px) {
     .skill {
+        /* there is no need to set float to the left
+        because from 576px there would be set to left */
         width: 25%;
     }
 }
